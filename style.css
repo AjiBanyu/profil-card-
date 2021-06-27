@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 12px 20px 5px rgb(208, 188, 188);
+}
+
+.img-header img {
+  height: 150px;
+  width: 100%;
+  /* border: 1px solid; */
+}
+
+.avatar-user {
+  position: absolute;
+  width: 100px;
+  top: 100px;
+  right: 110px;
+  cursor: pointer;
+  /* border: 1px solid; */
+}
+
+.content {
+  display: grid;
+  justify-content: center;
+  /* border: 1px solid; */
+
+  padding: 10px;
+  margin: 50px 0 0 0;
+}
+
+.toggle {
+  position: absolute;
+  right: 20px;
+  font-size: 1.5rem;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+}
+
+span {
+  justify-self: center;
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.footer {
+  position: relative;
+  display: grid;
+  /* border: 1px solid; */
+  top: 25px;
+}
+.btn-follow {
+  /* border: 1px solid; */
+  background-color: orange;
+  color: black;
+  font-weight: 600;
+  display: inline-block;
+  justify-self: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px 0;
+  width: 250px;
+  text-decoration: none;
+}
+
+.text {
+  margin: 10px 20px;
+  font-size: 0.875rem;
+}
